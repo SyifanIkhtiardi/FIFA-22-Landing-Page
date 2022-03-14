@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    margin: 0 80px;
+
+}
+/*------ Header Section ------*/
+
+header {
+    width: 100%;
+    height: 65px;
+    background-color: #292828;
+    opacity: 0.8;
+    color: white;
+    position: fixed;
+    z-index: 20;
+}
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo {
+    padding: 12.5px 0px;
+}
+.header-menu {
+    display: flex;
+}
+.header-menu ul{
+    display: flex;
+    list-style: none;
+    margin: 21px 40px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.header-menu ul li a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    transition-timing-function: linear;
+}
+.signup-btn {
+    height: 100%;
+    padding-top: 25px;
+}
+.signup {
+    text-decoration: none;
+    color: #C7F650;
+    background-color: transparent;
+    padding: 10px;
+    border: 2px solid #C7F650;
+    border-radius: 4px;
+    
+}
+/*------ Hero Section ------*/
+.hero-section {
+    background-image: url("img-src/hero-banner.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.hero-wrapper{
+    width: 400px;
+    padding: 250px 0;
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+    color: white;
+}
+.hero-wrapper p{
+    color: white;
+    font-size: 24px;
+    margin: 20px auto;
+    
+}
+.btn {
+    padding: 10px 20px;
+    background-color: #C7F650;
+    opacity: 0.8;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    color: #0E1041;
+}
+.order {
+    margin-right: 20px;
+}
+
+/*------ Animation ------*/
+.header-menu ul li a:hover {
+    color: #C7F650;
+    border-bottom: 4px solid #C7F650;
+    background-color: gray;
+    padding: 20px 0px;
+}
+
+.order:hover {
+    opacity: 1;
+    box-shadow: 0 0 5px #C7F650,
+                0 0 25px #C7F650,
+                0 0 50px #C7F650,
+                0 0 200px #C7F650;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+.trailer:hover {
+    background-color: #C7F650;
+    color: #292828;
+    box-shadow: 0 0 5px #C7F650,
+                0 0 25px #C7F650,
+                0 0 50px #C7F650,
+                0 0 200px #C7F650;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+.signup:hover {
+    color: #292828;
+    background-color: #C7F650;
+    box-shadow: 0 0 5px #C7F650,
+                0 0 25px #C7F650,
+                0 0 50px #C7F650,
+                0 0 200px #C7F650;
+}
+
