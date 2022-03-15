@@ -1,0 +1,36 @@
+/*---------- Untuk tablet ----------*/
+@media all and (max-width: 1000px) {
+    .header-menu ul {
+        margin:21px 20px;
+        font-size: 15px;
+    }
+}
+
+
+/*---------- Untuk smartphone --------*/
+@media all and (max-width: 670px) {
+    .container {
+        margin: 0 0px;
+    }
+    .header-logo {
+        width: 10px;
+        height: 10px;
+        padding-left: 10px;
+    }
+    .signup-btn {
+        padding-right: 10px;
+    }
+    .hero-section {
+        background-position: center;
+        
+    }
+    .hero-wrapper {
+        width: 100vw;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .header-menu ul {
+        display: none;
+    }
+}
