@@ -69,9 +69,16 @@ header {
     padding: 250px 0;
     text-align: center;
 }
+.ea-logo {
+    width: 150px;
+    height: 150px;
+}
 h1 {
-    font-size: 40px;
-    color: white;
+    font-family: "Sports EA Sports";
+    font-size: 80px;
+    font-style: italic;
+    color: #C7F650;
+    opacity: 0.9;
 }
 .hero-wrapper p{
     color: white;
